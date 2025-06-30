@@ -2,7 +2,7 @@
 NaariRakshak is a mobile application designed to enhance women's safety and healthcare accessibility. The app enables emergency alerts via WhatsApp, sends SOS email notifications, and allows users to manage emergency contacts efficiently.
 
 # Features
-Features
+
 🔐 User Authentication
 • Secure login and logout using Firebase Authentication
 • Session management to keep users logged in until they log out manually
