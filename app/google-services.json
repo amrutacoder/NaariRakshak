@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83245058823",
+    "project_id": "narishakti-32aec",
+    "storage_bucket": "narishakti-32aec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83245058823:android:34127db58929f0a77c53a2",
+        "android_client_info": {
+          "package_name": "com.example.women_healthcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYYwM7sm_TeCOxRZjgYXIrY39lwbFB2OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

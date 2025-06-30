@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emergency Help for Women</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        h1 {
+            color: #e63946;
+        }
+        button {
+            background-color: #e63946;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #b02836;
+        }
+    </style>
+    </head>
+    <body>
+
+        <h1>🚨 Emergency Help for Women 🚨</h1>
+        <p>If you are in danger, click the button below to send an emergency email with your location.</p>
+
+        <button onclick="sendEmergencyMail()">Send Emergency Mail 📧</button>
+
+        <script>
+function sendEmergencyMail() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+
+            var locationLink = `https://www.google.com/maps?q=${latitude},${longitude}`;
+            var emailBody = `Help Me! I am in danger. My current location is: ${locationLink}`;
+
+            window.location.href = `mailto:police@example.com?subject=Emergency Help&body=${encodeURIComponent(emailBody)}`;
+        });
+    } else {
+        alert("Geolocation is not supported by this browser.");
+    }
+}
+</script>
+
+    </body>
+</html>
