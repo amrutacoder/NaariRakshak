@@ -19,10 +19,10 @@ Emergency! Here is my location: https://www.google.com/maps/search/?api=1&query=
 
 👨‍👩‍👧 Relatives Management  
 • Add, view, and select emergency contacts  
-• Contacts are stored in Firebase Realtime Database
+• Contacts are stored in Firebase Realtime Database  
 • Selected phone numbers can be used for WhatsApp alerts
 
-📞 Helpline Numbers
+📞 Helpline Numbers  
 • Quick access to important helpline numbers for women’s healthcare and safety
 
 
